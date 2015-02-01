@@ -1,0 +1,462 @@
+# Thanks for your interest in translating PPSSPP.
+#
+# Simply copy this file to a new ini file with your language code,
+# or use it to update an existing file with that name.
+#
+# To see a list of codes, view this page:
+# http://stackoverflow.com/questions/3191664/list-of-all-locales-and-their-short-codes
+#
+# Please note, while translating:
+#
+# Hash/sharp symbols (#) in this file indicate a comment. Lines that begin without one are
+# considered to be a part of the actual translations.
+#
+# The left side of the equals sign indicates "key" values that PPSSPP uses to identify a string.
+# If they don't match correctly, PPSSPP won't use them.
+#
+# Ampersands (&) on the RIGHT side of an equals sign denote an underlined keyboard hotkey.
+# The hotkeys are only supported currently in the DesktopUI section, however.
+#
+# Example 1: &File. This will make it so when you press ALT + F on Windows, it'll open the File menu.
+# Example 2: Homebrew && Demos.  This would show one real ampersand in the menu.
+#
+# Happy translating.
+
+[MainMenu]
+Load = Ngarkim...
+Browse = Shfleto...
+Credits = Kredenciale
+Exit = Dil
+Recent = Se fundmi
+Game Settings = Opsione
+Games = Lojra
+Homebrew & Demos = Homebrew dhe Demo
+How to get games = Si te marrim lojra?
+Support PPSSPP = Suporto PPSSPP
+How to get homebrew & demos = Si te marrim homebrew dhe demo?
+www.ppsspp.org = www.ppsspp.org
+Home = Home
+DownloadFromStore = Shkarko nga dyqani i PPSSPP Homebrew
+
+[System]
+General = Kryesore
+Dynarec = Dynarec (JIT)
+DynarecisJailed = Dynarec (JIT): JIT i padisponueshem pa jailbreak
+Fast Memory = Fast Memory (jo stabel)
+Multithreaded (experimental) = Multithreaded (eksperimentale)
+I/O on thread (experimental) = I/O on thread (eksperimentale)
+Enable Cheats = Aktivizo Kode
+Day Light Saving = Ora Legale
+Change Nickname = Ndrysho Nofken
+Developer Tools = Opsione per programues
+Enable Compatibility Server Reports = Aktivizo dergimin e raporteve kompatiblitetit
+12HR = 12HR
+24HR = 24HR
+Cheats = Kode (eksperimentale, keshillohuni ne forum)
+Emulation = Emoluim
+PSP Settings = Opsione PSP
+Use X to confirm = Perdorni x si tast konfirmimi
+Use O to confirm = Perdorni o si tast konfirmimi
+YYYYMMDD = VVVVMMDD
+MMDDYYYY = MMDDVVVV
+DDMMYYYY = DDMMVVVV
+Screenshots as PNG = Ruaj fotot e ekranit si PNG
+Time Format = Formati i Ores
+Date Format = Formati i Dates
+Confirmation Button = Tasti i konfrmimit
+Change CPU Clock = Ndrysho Clock-un e CPU (0 = default)
+Clear Recent Games List = Pastro skedat nga te luajtura se fundmi 
+Savestate Slot = Vendi i Statruajtjes
+UI Language = Gjuha UI
+Restore Default Settings =  Rikthe ne gjendjen fillestare
+Atomic Audio locks (experimental) = Audio Locks Atomik (eksperimentale)
+Rewind Snapshot Frequency = Rikthe Frekuenca te fotoekranit (0 = off, mem hog)
+Auto Load Newest Savestate = Ngarko Automatikisht savestat-in e fundit
+Networking = Rrjeti
+Enable networking = Aktivizo rrjetin/WLAN (beta, mund te nderprese nese aktivizohet)
+VersionCheck = Kontrollo nese ka azhurnime per PPSSPP
+
+[Graphics]
+Stretch to Display = Pershtatu ne ekran
+Hardware Transform = Transformim Hardware
+Texture Filtering = Filtrim Texture
+Frame Skipping = Frame kalues
+Vertex Cache = Cache Vertex
+Rendering Resolution = Rendering Rezolucioni
+Auto (1:1) = Auto (1:1)
+1x PSP = 1x PSP
+2x PSP = 2x PSP
+3x PSP = 3x PSP
+4x PSP = 4x PSP
+5x PSP = 5x PSP
+6x PSP = 6x PSP
+7x PSP = 7x PSP
+8x PSP = 8x PSP
+9x PSP = 9x PSP
+10x PSP = 10x PSP
+LowCurves = Redukton cilesine per splinet dhe kurbat e bezier (rrit shpejtesine)
+Mipmapping = Mipmapping
+Alternative Speed = Shpejtesi Alternative
+Unlimited = Pa limit
+# Unused currently.
+# True Color = True Color
+Anisotropic Filtering = Filtrim Anisotropik
+Texture Scaling = Shkallezim Texture
+Deposterize = Deposterizim
+None = Asnjera
+Speed = Shpejtesia
+FPS = FPS
+Both = Te dyja
+Auto = Auto
+2x = 2x
+3x = 3x
+4x = 4x
+5x = 5x
+8x = 8x
+16x = 16x
+xBRZ = xBRZ
+Hybrid = Hibrid
+Bicubic = Bikubik
+Hybrid + Bicubic = Hibrid + Bikubik
+VSync = VSync
+FullScreen = Ekrani i plote
+Show FPS Counter = Shfaq FPS
+Show Debug Statistics = Shfaq Statistikat Debug
+Upscale Level = Niveli i Pershtatshmerise
+Upscale Type = Tipi i pershtatshmerise
+Texture Filter = Filtrim te Texturave
+Nearest = Me te afert
+Linear = Lineare
+Linear on FMV = Lineare ne FMV
+Non-Buffered Rendering = Rendering pa Bufer 
+Buffered Rendering = Rendering me Bufer 
+Read Framebuffers To Memory (CPU) = Framebuffer ne Memorien (CPU)
+Read Framebuffers To Memory (GPU) = Framebuffer ne Memorien (GPU)
+Toggled Speed Limit = Aktivizo Limitin e shpejtesise
+Software Rendering = Rendering me ane te Software (eksperimentale)
+Debugging = Debuging
+Dump next frame to log = Krijo Log te Frame-it pasardhes
+Features = Aspekti
+Force max 60 FPS (helps GoW) = Detyro 60 FPS maksimale (shpejton GoW)
+Frame Rate Control = Kontrolli i Framerate
+Mode = Modaliteti
+Off = Fikur
+Overlay Information = Info mbi Overlay
+Rendering Mode = Modaliteti i Rendering
+Hack Settings = Opsione Hack-imi (mund te shkaktoje probleme)
+Always Depth Write = Shkruaj gjithmone ne thellesi
+Disable Stencil Test = çaktivizo testin Matrice
+Internal Resolution = Rezolucioni i brendshem
+Window Size = Dimensioni i Dritares
+Texture Coord Speedhack = Speedhack me kordinim Texture (rrit shpejtesine)
+Postprocessing Shader =  Shader Postprocesues
+Antialiasing and postprocessing = Antialiasing e Postprocessing
+Performance = Performance
+Disable Alpha Test (PowerVR speedup) = Çaktivizo Alpha Test (PowerVR i pershpejtuar)
+Vertex Decoder JIT = Vertex Dekoder JIT
+Software Skinning = Veshje Softwari
+Timer Hack = Hack Kohe
+
+[Pause]
+Save State = Ruaj Stat
+Load State = Ngarko Stat
+Continue = Vazhdo
+Exit to menu = Dil te menuja
+Game Settings = Opsione te lojes
+Cheats = Kode
+Rewind = Rewind
+Switch UMD = Nderro UMD
+
+[MainSettings]
+Audio = Audio
+Graphics = Grafika
+System = Sistemi
+Controls = Kontrolle
+
+[Developer]
+Load language ini = Ngarko skedat e gjuhes
+Save language ini = Ruaj skedat e gjuhes
+Run CPU Tests = Bej Test CPU
+Enable Logging = Aktivizo Log te Debug
+System Information = Informacioni i Sistemit
+Language = Gjuha
+Logging Channels = Regjistro kanalet
+RestoreDefaultSettings = Jeni te sigurt qe doni ti riktheni rregullimet e para?\nRregullimet e kontrollit nuk kane ndryshuar.\n\n\nKy veprim nuk mund te anullohet.\nRihapni PPSSPP per te ngarkuar ndryshimet.
+Show Developer Menu = Shfaq menune e programuesve
+
+[Audio]
+Enable Sound = Aktivizo Tinguj
+SFX volume = Volumi i efekteve zanore SFX
+BGM volume = Volumi i Muzikes se sfondit BGM
+Low latency audio = Audio me Latenc te ulur (nderprerje te mundshme)
+
+[Controls]
+OnScreen = Kontrollet e Touchscreen
+Button Scaling = Dimensionimi i Tasteve
+Tilt = kontroll Stick-eri Analigjik me Inklinazione (akse horizontale)
+Tilt Sensitivity = Sensibiliteti i Inklinacionit
+Button Opacity = Opaciteti i Tasteve
+Control Mapping = Rregullo Kontroller
+HapticFeedback =  Pergjigje Haptike (vibracione)
+Custom layout... = Stile te  kontrollerit Touchscreen...
+Visibility = Visibiliteti
+Touch Control Visibility = Vizibiliteti i Controllit Touchscreen
+Disable D-Pad diagonals (4-way touch) = çaktivizo D-Pad (4-way touch)
+Button style = Stile Tasti
+Classic = Klasik
+Thin borders = Border Fin
+
+[Dialog]
+Back = Kthehu
+Yes = Po
+No = Jo
+OK = OK
+Cancel = Anullo
+Enter = Konfirmo
+Select = Perzgjidh
+Delete = Fshij
+Start = Fillo
+Finish = Perfundim
+Shift = Nderrim
+Save = Ruaj
+Load = Ngarko
+Reset = Reset
+Toggle All = Aktivizo gjitha
+NEW DATA = TE DHENA TE REJA
+Confirm Save = Doni ti ruani keto te dhena?
+Confirm Overwrite = Doni ti mbishkruani keto te dhena?
+ConfirmLoad = Te ngarkohen keto te dhena?
+Saving = Duke ruajtur\nPrisni...
+Save completed =Te dhenat u ruajten .
+Loading = Duke ngarkuar\nPrisni...
+Load completed = Te dhenat u ngarkuan.
+There is no data = Nuk ka te dhena.
+DeleteConfirm = Keto ruajtje do te fshihen.\nJeni te sigurt qe doni te vazhdoni?
+Deleting = Duke fshire\nPrisni...
+Delete completed = Te dhenat u fshin.
+DeleteConfirmAll = Doni ti fshini te gjitha\nte ruajturat e kesaj loje?
+DeleteConfirmGame = Doni te fshini kete loje\nnga telefoni? Ky veprim eshte i pakthyeshem.
+Retry = Riprovo
+
+[Error]
+Error loading file = Gabim ne ngarkimin e skedarit:
+PS1 EBOOTs are not supported by PPSSPP. = PS1 EBOOT nuk suportohen ne PPSSPP.
+Failed to load executable: File corrupt = Ngarkimi i ekzekutuesit deshtoi: skedari i demtuar.
+RAR file detected (Require WINRAR) = Skedari eshte i kompresuar (RAR).\n fillimisht duhet dekompresuar (provo WinRAR).
+RAR file detected (Require UnRAR) = Skedari eshte i kompresuar (RAR).\nfillimisht duhet dekompresuar (provo WinRAR).
+ZIP file detected (Require WINRAR) = Skedari eshte i kompresuar (ZIP).\nfillimisht duhet dekompresuar (provo WinRAR).
+ZIP file detected (Require UnRAR) = Skedari eshte i kompresuar (ZIP).\nfillimisht duhet dekompresuar (provo UnRAR).
+Just a directory. = Vetem nje direktori.
+Failed to identify file = Identifikimi i skedarit nuk u arrit.
+Error reading file = Gabim ne leximin e skedarit.
+No EBOOT.PBP, misidentified game = Jo EBOOT.PBP, Loje e identifikuar gabimisht.
+PSX game image detected. = Skedari eshte MODE2. PPSSPP nuk suporton lojra per PS1.
+OpenGLDriverError = Gabim ne Driver OpenGL
+InsufficientOpenGLDriver = Suporti i Driver OpenGL i pamjaftueshem!\n\n GPU deklaron qe nuk suporton OpenGL 2.0, ky eshte i nevojshem funksionimin e PPSSPP.\n\nkontrollo kompatibilitetin e GPU per OpenGL 2.0. Nese Kompatibel, eshte i nevojshem instalimi i driverave me te fundit nga sajti i prodhuesit te GPU.\n\nVizitoni forumin  ne http://forums.ppsspp.org per me shume info.
+
+[Screen]
+fixed = Shpejtesia: alternate
+standard = Shpejtesia: standarte
+Loaded State = Stat i ngarkuar
+Saved State = Stat i ruajtur
+LoadStateDoesntExist = Ngarkimi i statit deshtoi: stati i ruajtur nuk egziston!
+LoadStateWrongVersion = Ngarkimi i statit deshtoi: stati i ruajtur eshte i nje versioni te meparshem te PPSSPP!
+Save State Failed = Ruajtja e statit deshtoi!
+PressESC = Zjidhni ESC per te hapur Menùn e Pauses
+Chainfire3DWarning = LAJMERIM: u hoq Chainfire3D, mund te shkaktoj probleme
+
+[PSPCredits]
+created = Realizuar nga
+license = Software i hapur GPL 2.0
+title = Nje Emulator i shpejte dhe portativ per PSP
+contributors = Kontribuesit:
+specialthanks = Falenderime te Veçanta:
+written = Shkruar ne C++ per shpejtesi dhe prakticitet
+tools = Software falas te perdorur:
+website = Vizitoni sajtin:
+list = lista e kompatibilitetit, forum dhe informacioni rreth zhvillimit te metejshem
+check = Provoni dhe Dolphin, emulatorin me te mire per Wii/GC:
+info1 = PPSSPP eshte destinuar eksluzivisht per qellime edukuese.
+info2 = Sigurohuni ti keni te drejtat e perdorimit te lojrave te duhura
+info3 = duke poseduar nje kopje te UMD origjinale ose duke e blere nje kopje digitale 
+info4 = nga dyqanet e PlayStation Netowrk ne PSP e duhur.
+info5 = PSP eshte nje mark tregtie e Sony, Inc.
+Buy Gold = Bleni Versionin Gold
+PPSSPP Forums = PPSSPP Forumi
+this translation by = Perkthimi nen kujdesin e :
+# Add translators1-6 for up to 6 lines of translator credits.
+# Leave extra lines blank. 4 contributors per line seems to look best.
+# Add translators or contributors who translated PPSSPP into your language here.
+translators1 = Vllaznim
+translators2 = Bardhoshi
+translators3 = Vllaznim
+translators4 = Bardhoshi
+translators5 = Vllaznim 
+translators6 = Bardhoshi
+
+[KeyMapping]
+Clear All = Fshij te gjitha
+Default All = Zhbej te gjitha
+Map a new key for = Seleksiono tastin e kontrollit per:
+
+[MappableControls]
+Up = D-Pad lart
+Down = D-Pad posht
+Left = D-Pad majtas
+Right = D-Pad Djathtas
+An.Up = Analog lart
+An.Down = Analog posht
+An.Left = Analog MX
+An.Right = Analog DX
+RapidFire = Zjarr i shpejt
+Unthrottle = Unthrottle
+SpeedToggle = Shpejtesi
+Pause = Paus
+RightAn.Up = RightAn.Sip
+RightAn.Down = RightAn.Posht
+RightAn.Left = RightAn.Majt
+RightAn.Right = RightAn.Djatht
+Analog Stick = Stick Analog
+Dpad = Dpad
+Rewind = Rewind
+Save State = Ruaj Stat
+Load State = Ngarko Stat
+
+[DesktopUI]
+# If your language does not show well with the default font, you can use Font to specify a different one.
+# Just add it to your language's ini file and uncomment it (remove the # by Font).
+#Font = Trebuchet MS
+
+File = &File
+Load = Ngarko Fi&le...
+Open Directory... = Hap &Direktori...
+Open from MS:/PSP/GAME... = H&ap nga MS:/PSP/GAME...
+Open Memory Stick = Hap &Memory Stick
+Savestate Slot = Sloti i  Saves&tate
+Load State = Ngarko Stat&
+Save State = R&uaj Stat
+Load State File... = Ngarko F&ile te Stat...
+Save State File... = Ruaj Fil&e te Stat...
+Exit = D&il
+
+Emulation = &Emulimi
+# Run doesn't appear when not in-game.
+# They alternate in-game.
+Run = &Vazhdo
+Pause = &Pusho
+Stop = &Nderprit
+Reset = R&eset
+Switch UMD = Nderro &UMD
+
+Debugging = &Debug
+Load Map File... = Ngarko File te &Hartes...
+Save Map File... = &Ruaj File te Hartes...
+Reset Symbol Table = Riseto Sim&bolet nga tabela
+Dump Next Frame to Log = Ruaj Log Frame P&asardhes
+Take Screenshot = Be&j Screenshot
+Show Debug Statistics = Shfaq Statistika Debu&g
+Ignore Illegal Reads/Writes = &Injoro Lexime/Shkrime te Parregullta
+Run on Load = Fillo ne ngarkim&o
+Disassembly = &Disassembly...
+GE Debugger... = GE Debuge&r...
+Log Console = &Log Consoli
+Memory View... = &Pamje e Memories...
+
+Game Settings = Rregullime te &lojes
+Keep PPSSPP On Top = Mbaj gjithmone PPSSPP ne krye
+Pause When Not Focused = &Pusho kur nuk je i perqen&druar
+More Settings... = Me shume opsione...
+Control Mapping... = Rregullime te butonave te &controllit...
+Language... = Gj&uha...
+Stretch to Display = Pershtat ne ek&ran
+Fullscreen = Z&madho ne ekran komplet
+VSync = VS&ync
+Postprocessing Shader = Shader Postprocesue&s 
+Rendering Resolution = & Rezolucioni i Rendering
+Auto = &Auto
+Window Size = Dim&ensioni i Dritares
+Rendering Mode = M&odaliteti Rendering
+Non-Buffered Rendering = &Rendering pa Buffer
+Buffered Rendering = &Rendering me Buffer
+Read Framebuffers To Memory (CPU) = Framebuffer ne Memorie (&CPU)
+Read Framebuffers To Memory (GPU) = Framebuffer ne Memorie (&GPU)
+# Also uses Auto from above.  Please open an issue on GitHub if your language needs different words.
+Frame Skipping = &Framekalues
+Off = &Fikur
+# Also uses Auto from above.  Please open an issue on GitHub if your language needs different words.
+Texture Filtering = Filtrimi i &Textures
+Nearest = Peraf&ruar
+Linear = &Lineare
+Linear on FMV = Lineare ne &FMV
+# Also uses Off from above.  Please open an issue on GitHub if your language needs different words.
+Texture Scaling = Shkallezim &Texture
+xBRZ = &xBRZ
+Hybrid = &Hibrid
+Bicubic = &Bikubik
+Hybrid + Bicubic = H&ibrid + Bikubik
+Deposterize = &Deposterizim
+Hardware Transform = Trasformim &Hardware
+Vertex Cache = Cache &Vertex
+Show FPS Counter = Shfaq &FPS
+Enable Sound = Aktivizo &Tingujt
+Enable Cheats = Aktivizo &Kodet
+
+Help = Ndih&me
+www.ppsspp.org = Vizito www.&ppsspp.org
+PPSSPP Forums = PPSSPP &Forums
+Buy Gold = Blij Versionin &Gold
+About PPSSPP... = &Rreth PPSSPP...
+
+[Game]
+Play = Luaj
+Game Settings = Rregullime te lojes
+Delete Game = Fshij Lojen
+ConfirmDelete = Fshij
+Create Shortcut = Krijo Shortcut
+Game = Loje
+SaveData = Savedata
+Delete Save Data = Fshij Savedata
+Remove From Recent = Fshij nga Te Luajtura
+Show In Folder = Shfaq ne Folder
+
+[CwCheats]
+Options = Opsione
+Import Cheats = Importo nga cheat.db
+Enable/Disable All = Aktivizo/Çaktivizo Kode
+Cheats = Kode
+
+[PostShaders]
+Off = Fikur
+FXAA = FXAA Antialiasing
+Natural = Ngjyra natyrale
+Grayscale = Shkalla e grise
+Vignette = Vishnje
+Bloom = Çel
+Sharpen = Sharpen
+InverseColors = Ngjyra Inverse
+Scanlines = Scanlines (CRT)
+Cartoon = Dizajni
+4xHqGLSL = 4xHQ GLSL
+AAColor = AA-Color
+UpscaleSpline36 = Spline36 Upscaler
+CRT Scanlines = Linja te Skansioneve CRT
+
+[Upgrade]
+New version of PPSSPP available = Version i Ri i PPSSPP
+Download = Shkarko
+Dismiss = Shperfill
+
+[InstallZip]
+Install game from ZIP file? = Install game from ZIP file?
+Install = Install
+Delete ZIP file = Delete ZIP file
+Installed! = Installed!
+
+[Store]
+Install = Instalo
+Already Installed = Te instaluara tashme
+Uninstall = Çinstalo
+Size = Madhesia
+MB = MB
+Loading... = Duke ngarkuar...
+Connection Error = Gabim komunikimi
